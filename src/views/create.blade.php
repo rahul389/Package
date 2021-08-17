@@ -97,5 +97,5 @@
 @endsection
 @section('scripts')
     @include('role::scripts.common')
-    {!! JsValidator::formRequest('Module\Role\Http\Requests\RoleRequest', '#create-role') !!}
+    {!! JsValidator::formRequest('RSoftech\Role\Http\Requests\RoleRequest', '#create-role') !!}
 @endsection
