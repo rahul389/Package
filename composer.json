@@ -1,11 +1,11 @@
 {
-    "name": "module/role",
+    "name": "mod/role",
     "description": "This is for role management.",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Module\\Role\\": "src/"
+            "Mod\\Role\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Module\\Role\\RoleServiceProvider"
+                "Mod\\Role\\RoleServiceProvider"
             ]
         }
     }

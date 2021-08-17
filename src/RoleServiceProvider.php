@@ -1,6 +1,6 @@
 <?php
 
-namespace Module\Role;
+namespace Mod\Role;
 
 use Illuminate\Support\ServiceProvider;
 

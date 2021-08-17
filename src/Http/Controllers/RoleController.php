@@ -2,7 +2,7 @@
 /**
  * Role controller
  *
- * @package Module\Role\Http\Controllers
+ * @package Mod\Role\Http\Controllers
  *
  * @class RoleController
  *
@@ -11,12 +11,12 @@
  * @copyright 2021 SurmountSoft Pvt. Ltd. All rights reserved.
  */
 
-namespace Module\Role\Http\Controllers;
+namespace Mod\Role\Http\Controllers;
 
-use Module\Role\Models\Role;
-use Module\Role\Models\Permission;
+use Mod\Role\Models\Role;
+use Mod\Role\Models\Permission;
 use Illuminate\Http\Request;
-use Module\Role\Http\Requests\RoleRequest;
+use Mod\Role\Http\Requests\RoleRequest;
 use Yajra\DataTables\Facades\DataTables;
 use App\Http\Controllers\Controller;
 

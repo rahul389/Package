@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Module\Role\Models
+ * @package Mod\Role\Models
  *
  * @class Role
  *
@@ -8,7 +8,7 @@
  *
  * @copyright 2021 SurmountSoft Pvt. Ltd. All rights reserved.
  */
-namespace Module\Role\Models;
+namespace Mod\Role\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
