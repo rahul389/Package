@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ModRSoftech\\Role\\": "src/"
+            "RSoftech\\Role\\": "src/"
         }
     },
     "authors": [
