@@ -1,6 +1,6 @@
 <?php
 
-namespace Mod\Role;
+namespace RSoftech\Role;
 
 use Illuminate\Support\ServiceProvider;
 

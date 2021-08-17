@@ -2,7 +2,7 @@
 /**
  * Role controller
  *
- * @package Mod\Role\Http\Controllers
+ * @package RSoftech\Role\Http\Controllers
  *
  * @class RoleController
  *
@@ -11,12 +11,12 @@
  * @copyright 2021 SurmountSoft Pvt. Ltd. All rights reserved.
  */
 
-namespace Mod\Role\Http\Controllers;
+namespace RSoftech\Role\Http\Controllers;
 
-use Mod\Role\Models\Role;
-use Mod\Role\Models\Permission;
+use RSoftech\Role\Models\Role;
+use RSoftech\Role\Models\Permission;
 use Illuminate\Http\Request;
-use Mod\Role\Http\Requests\RoleRequest;
+use RSoftech\Role\Http\Requests\RoleRequest;
 use Yajra\DataTables\Facades\DataTables;
 use App\Http\Controllers\Controller;
 

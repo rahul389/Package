@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Mod\Role\Models
+ * @package RSoftech\Role\Models
  *
  * @class Role
  *
@@ -8,7 +8,7 @@
  *
  * @copyright 2021 SurmountSoft Pvt. Ltd. All rights reserved.
  */
-namespace Mod\Role\Models;
+namespace RSoftech\Role\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

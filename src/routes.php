@@ -1,5 +1,5 @@
 <?php
-use Mod\Role\Http\Controllers\RoleController;
+use RSoftech\Role\Http\Controllers\RoleController;
 	
 	Route::resource('/roles',RoleController::class);
 	Route::get('/roles-data', [RoleController::class, 'rolesData'])->name('roles.data');

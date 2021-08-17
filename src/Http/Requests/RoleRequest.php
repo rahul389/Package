@@ -1,6 +1,6 @@
 <?php
 
-namespace Mod\Role\Http\Requests;
+namespace RSoftech\Role\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
