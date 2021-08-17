@@ -1,0 +1,30 @@
+{
+    "name": "module/role",
+    "description": "This is for role management.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Module\\Role\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Sharma",
+            "email": "rahulsharma389@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.2",
+        "proengsoft/laravel-jsvalidation": "^4.4",
+        "yajra/laravel-datatables-oracle": "~9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Module\\Role\\RoleServiceProvider"
+            ]
+        }
+    }
+}
